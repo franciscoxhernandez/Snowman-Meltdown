@@ -4,8 +4,8 @@ def main():
     while True:
         play_game()
         again = input("Would you like to play again? (y/n): ").lower()
-        if again == "n":
-            print("Thank you for playing!")
+        if again != "y":
+            print("Thanks for playing!")
             break
 
 if __name__ == "__main__":
