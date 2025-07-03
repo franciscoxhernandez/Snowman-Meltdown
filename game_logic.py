@@ -33,8 +33,10 @@ def play_game():
     mistakes = 0
     max_mistakes = len(STAGES) - 1
 
+    print("*"* 28)
     print("Welcome to Snowman Meltdown!")
-    print(f"Secret word selected: {secret_word}")# for testing, later remove this line
+    print("*"* 28)
+    #print(f"Secret word selected: {secret_word}")# for testing, later remove this line
 
     while True:
         display_game_state(mistakes, secret_word, guessed_letters, wrong_letters)
